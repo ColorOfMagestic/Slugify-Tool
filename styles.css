@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+section {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+input.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+p.output {
+  min-height: 24px;
+  padding: 10px;
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-family: monospace;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background 0.3s;
+}
+
+.button-generate {
+  background-color: #2dd700;
+  color: white;
+}
+
+.button-generate:hover {
+  background-color: #26b700;
+}
+
+.button-copy {
+  background-color: #f5001d;
+  color: white;
+}
+
+.button-copy:hover {
+  background-color: #c40017;
+}
+
+@media (max-width: 420px) {
+  section {
+    padding: 15px 20px;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .button-copy {
+    margin-right: 0;
+  }
+}
