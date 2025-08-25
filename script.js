@@ -15,7 +15,7 @@ function slugify(str) {
 buttonGenerate.addEventListener('click', () => {
   const value = input.value;
   const text = slugify(value);
-  output.textContent = `http://109.206.161.111/lander/${text}/index.php#`;
+  output.textContent = `https://gyltartestor.click/lander/${text}/index.php#`;
 });
 
 buttonCopy.addEventListener('click', async () => {
